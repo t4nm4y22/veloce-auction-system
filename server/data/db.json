@@ -1,0 +1,384 @@
+{
+  "users": [
+    {
+      "id": "USR-101",
+      "name": "Aarav Singhania",
+      "title": "Vintage Horology Collector",
+      "avatar": "AS",
+      "walletBalance": 485000,
+      "lockedBalance": 0
+    },
+    {
+      "id": "USR-102",
+      "name": "Zoya Kapoor",
+      "title": "Fine Art & Automotive Patron",
+      "avatar": "ZK",
+      "walletBalance": 545000,
+      "lockedBalance": 0
+    },
+    {
+      "id": "USR-103",
+      "name": "Vikramaditya Rao",
+      "title": "Rare Tech & Memorabilia Investor",
+      "avatar": "VR",
+      "walletBalance": 350000,
+      "lockedBalance": 0
+    }
+  ],
+  "auctions": [
+    {
+      "id": "LOT-801",
+      "title": "1968 Omega Speedmaster 'Ultraman' Chronograph",
+      "category": "Horology",
+      "curator": "Geneva Vaults",
+      "description": "Original stepped dial with orange chronograph hand, caliber 321 movement, accompanied by archival extract.",
+      "imageUrl": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80",
+      "startingPrice": 110000,
+      "currentBid": 145000,
+      "minIncrement": 5000,
+      "highestBidderId": "USR-101",
+      "highestBidderName": "Aarav Singhania",
+      "endTimeOffsetSec": 240,
+      "endTime": "2026-10-23T17:24:08.016Z",
+      "status": "ENDED",
+      "bidCount": 4,
+      "featured": true,
+      "endingSoonNotified": true
+    },
+    {
+      "id": "LOT-802",
+      "title": "First Edition 'Dune' Hardcover (1965) Signed",
+      "category": "Rare Books",
+      "curator": "Sotheby's Literary Archive",
+      "description": "Chilton Books first printing in original unclipped dust jacket, signed by Frank Herbert on the title page.",
+      "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=80",
+      "startingPrice": 65000,
+      "currentBid": 88000,
+      "minIncrement": 3000,
+      "highestBidderId": "USR-102",
+      "highestBidderName": "Zoya Kapoor",
+      "endTimeOffsetSec": 95,
+      "endTime": "2026-10-23T17:21:43.017Z",
+      "status": "ENDED",
+      "bidCount": 3,
+      "featured": false,
+      "endingSoonNotified": true
+    },
+    {
+      "id": "LOT-803",
+      "title": "Leica M3 Double Stroke (1955) Chrome Kit",
+      "category": "Vintage Optics",
+      "curator": "Wetzlar Heritage",
+      "description": "Paired with collapsible Summicron 50mm f/2 lens. Mechanically overhauled with vulcanite intact.",
+      "imageUrl": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=900&q=80",
+      "startingPrice": 35000,
+      "currentBid": 42000,
+      "minIncrement": 2000,
+      "highestBidderId": "USR-103",
+      "highestBidderName": "Vikramaditya Rao",
+      "endTimeOffsetSec": 540,
+      "endTime": "2026-10-23T17:29:08.017Z",
+      "status": "ENDED",
+      "bidCount": 2,
+      "featured": false,
+      "endingSoonNotified": true
+    },
+    {
+      "id": "LOT-804",
+      "title": "1979 Fender Stratocaster 'Antigua Burst' Guitar",
+      "category": "Instruments",
+      "curator": "Abbey Road Memorabilia",
+      "description": "All-original pickups and pots, rare Antigua finish with original molded hard case and studio provenance.",
+      "imageUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=900&q=80",
+      "startingPrice": 90000,
+      "currentBid": 90000,
+      "minIncrement": 5000,
+      "highestBidderId": null,
+      "highestBidderName": null,
+      "endTimeOffsetSec": 900,
+      "endTime": "2026-10-23T17:35:08.017Z",
+      "status": "ENDED",
+      "bidCount": 0,
+      "featured": false,
+      "endingSoonNotified": true
+    },
+    {
+      "id": "LOT-805",
+      "title": "F1 Carbon Fiber Front Wing Endplate (Monza Spec)",
+      "category": "Motorsport",
+      "curator": "Maranello Paddock",
+      "description": "Race-used aerodynamic carbon composite endplate with FIA holographic barcode and certificate of authenticity.",
+      "imageUrl": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=900&q=80",
+      "startingPrice": 75000,
+      "currentBid": 75000,
+      "minIncrement": 5000,
+      "highestBidderId": "USR-102",
+      "highestBidderName": "Zoya Kapoor",
+      "endTimeOffsetSec": 1500,
+      "endTime": "2026-10-23T17:45:08.017Z",
+      "status": "ENDED",
+      "bidCount": 1,
+      "featured": false,
+      "endingSoonNotified": true
+    }
+  ],
+  "bids": [
+    {
+      "id": "BID-9005",
+      "auctionId": "LOT-805",
+      "auctionTitle": "F1 Carbon Fiber Front Wing Endplate (Monza Spec)",
+      "userId": "USR-102",
+      "userName": "Zoya Kapoor",
+      "amount": 75000,
+      "previousBid": 75000,
+      "timeExtended": false,
+      "timestamp": "2026-10-23T17:43:03.035Z"
+    },
+    {
+      "id": "BID-9004",
+      "auctionId": "LOT-801",
+      "auctionTitle": "1968 Omega Speedmaster 'Ultraman' Chronograph",
+      "userId": "USR-101",
+      "userName": "Aarav Singhania",
+      "amount": 145000,
+      "previousBid": 135000,
+      "timestamp": "2026-10-23T14:55:00.000Z"
+    },
+    {
+      "id": "BID-9003",
+      "auctionId": "LOT-801",
+      "auctionTitle": "1968 Omega Speedmaster 'Ultraman' Chronograph",
+      "userId": "USR-102",
+      "userName": "Zoya Kapoor",
+      "amount": 135000,
+      "previousBid": 125000,
+      "timestamp": "2026-10-23T14:52:10.000Z"
+    },
+    {
+      "id": "BID-9002",
+      "auctionId": "LOT-802",
+      "auctionTitle": "First Edition 'Dune' Hardcover (1965) Signed",
+      "userId": "USR-102",
+      "userName": "Zoya Kapoor",
+      "amount": 88000,
+      "previousBid": 78000,
+      "timestamp": "2026-10-23T14:49:30.000Z"
+    },
+    {
+      "id": "BID-9001",
+      "auctionId": "LOT-803",
+      "auctionTitle": "Leica M3 Double Stroke (1955) Chrome Kit",
+      "userId": "USR-103",
+      "userName": "Vikramaditya Rao",
+      "amount": 42000,
+      "previousBid": 35000,
+      "timestamp": "2026-10-23T14:45:12.000Z"
+    }
+  ],
+  "walletTransactions": [
+    {
+      "id": "WTX-1792777509004-WIN",
+      "userId": "USR-102",
+      "userName": "Zoya Kapoor",
+      "type": "AUCTION_SETTLED",
+      "amount": 75000,
+      "description": "Final settlement for winning LOT-805 (F1 Carbon Fiber Front Wing Endplate (Monza Spec))",
+      "timestamp": "2026-10-23T17:45:09.004Z"
+    },
+    {
+      "id": "WTX-1792777383035-L",
+      "userId": "USR-102",
+      "userName": "Zoya Kapoor",
+      "type": "BID_LOCK",
+      "amount": 75000,
+      "description": "Escrow hold for leading bid on LOT-805 (F1 Carbon Fiber Front Wing Endplate (Monza Spec))",
+      "timestamp": "2026-10-23T17:43:03.035Z"
+    },
+    {
+      "id": "WTX-1792776548327-WIN",
+      "userId": "USR-103",
+      "userName": "Vikramaditya Rao",
+      "type": "AUCTION_SETTLED",
+      "amount": 42000,
+      "description": "Final settlement for winning LOT-803 (Leica M3 Double Stroke (1955) Chrome Kit)",
+      "timestamp": "2026-10-23T17:29:08.327Z"
+    },
+    {
+      "id": "WTX-1792776248154-WIN",
+      "userId": "USR-101",
+      "userName": "Aarav Singhania",
+      "type": "AUCTION_SETTLED",
+      "amount": 145000,
+      "description": "Final settlement for winning LOT-801 (1968 Omega Speedmaster 'Ultraman' Chronograph)",
+      "timestamp": "2026-10-23T17:24:08.154Z"
+    },
+    {
+      "id": "WTX-1792776103305-WIN",
+      "userId": "USR-102",
+      "userName": "Zoya Kapoor",
+      "type": "AUCTION_SETTLED",
+      "amount": 88000,
+      "description": "Final settlement for winning LOT-802 (First Edition 'Dune' Hardcover (1965) Signed)",
+      "timestamp": "2026-10-23T17:21:43.305Z"
+    },
+    {
+      "id": "WTX-501",
+      "userId": "USR-101",
+      "userName": "Aarav Singhania",
+      "type": "BID_LOCK",
+      "amount": 145000,
+      "description": "Escrow hold for highest bid on LOT-801",
+      "timestamp": "2026-10-23T14:55:00.000Z"
+    },
+    {
+      "id": "WTX-502",
+      "userId": "USR-102",
+      "userName": "Zoya Kapoor",
+      "type": "BID_REFUND",
+      "amount": 135000,
+      "description": "Escrow released after being outbid on LOT-801",
+      "timestamp": "2026-10-23T14:55:00.000Z"
+    },
+    {
+      "id": "WTX-503",
+      "userId": "USR-102",
+      "userName": "Zoya Kapoor",
+      "type": "BID_LOCK",
+      "amount": 88000,
+      "description": "Escrow hold for highest bid on LOT-802",
+      "timestamp": "2026-10-23T14:49:30.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NTF-1792777509004-WIN",
+      "userId": "USR-102",
+      "type": "AUCTION_WON",
+      "title": "Gavel Down! Lot LOT-805 Sold",
+      "message": "Zoya Kapoor won \"F1 Carbon Fiber Front Wing Endplate (Monza Spec)\" for ₹75,000!",
+      "auctionId": "LOT-805",
+      "read": false,
+      "timestamp": "2026-10-23T17:45:09.004Z"
+    },
+    {
+      "id": "NTF-1792777448762-LOT-805",
+      "userId": "ALL",
+      "type": "ENDING_SOON",
+      "title": "Final 60 Seconds: LOT-805",
+      "message": "\"F1 Carbon Fiber Front Wing Endplate (Monza Spec)\" is about to close! Current bid: ₹75,000.",
+      "auctionId": "LOT-805",
+      "read": false,
+      "timestamp": "2026-10-23T17:44:08.762Z"
+    },
+    {
+      "id": "NTF-1792777383035-G",
+      "userId": "ALL",
+      "type": "HIGH_BID",
+      "title": "New High Bid on LOT-805",
+      "message": "Zoya Kapoor bid ₹75,000 on \"F1 Carbon Fiber Front Wing Endplate (Monza Spec)\"",
+      "auctionId": "LOT-805",
+      "read": false,
+      "timestamp": "2026-10-23T17:43:03.035Z"
+    },
+    {
+      "id": "NTF-1792776908731-EXP",
+      "userId": "ALL",
+      "type": "AUCTION_ENDED",
+      "title": "Lot LOT-804 Closed Unsold",
+      "message": "\"1979 Fender Stratocaster 'Antigua Burst' Guitar\" reached time limit with no reserve bids.",
+      "auctionId": "LOT-804",
+      "read": false,
+      "timestamp": "2026-10-23T17:35:08.731Z"
+    },
+    {
+      "id": "NTF-1792776848496-LOT-804",
+      "userId": "ALL",
+      "type": "ENDING_SOON",
+      "title": "Final 60 Seconds: LOT-804",
+      "message": "\"1979 Fender Stratocaster 'Antigua Burst' Guitar\" is about to close! Current bid: ₹90,000.",
+      "auctionId": "LOT-804",
+      "read": false,
+      "timestamp": "2026-10-23T17:34:08.496Z"
+    },
+    {
+      "id": "NTF-1792776548327-WIN",
+      "userId": "USR-103",
+      "type": "AUCTION_WON",
+      "title": "Gavel Down! Lot LOT-803 Sold",
+      "message": "Vikramaditya Rao won \"Leica M3 Double Stroke (1955) Chrome Kit\" for ₹42,000!",
+      "auctionId": "LOT-803",
+      "read": false,
+      "timestamp": "2026-10-23T17:29:08.327Z"
+    },
+    {
+      "id": "NTF-1792776488066-LOT-803",
+      "userId": "ALL",
+      "type": "ENDING_SOON",
+      "title": "Final 60 Seconds: LOT-803",
+      "message": "\"Leica M3 Double Stroke (1955) Chrome Kit\" is about to close! Current bid: ₹42,000.",
+      "auctionId": "LOT-803",
+      "read": false,
+      "timestamp": "2026-10-23T17:28:08.066Z"
+    },
+    {
+      "id": "NTF-1792776248154-WIN",
+      "userId": "USR-101",
+      "type": "AUCTION_WON",
+      "title": "Gavel Down! Lot LOT-801 Sold",
+      "message": "Aarav Singhania won \"1968 Omega Speedmaster 'Ultraman' Chronograph\" for ₹1,45,000!",
+      "auctionId": "LOT-801",
+      "read": false,
+      "timestamp": "2026-10-23T17:24:08.154Z"
+    },
+    {
+      "id": "NTF-1792776188788-LOT-801",
+      "userId": "ALL",
+      "type": "ENDING_SOON",
+      "title": "Final 60 Seconds: LOT-801",
+      "message": "\"1968 Omega Speedmaster 'Ultraman' Chronograph\" is about to close! Current bid: ₹1,45,000.",
+      "auctionId": "LOT-801",
+      "read": false,
+      "timestamp": "2026-10-23T17:23:08.788Z"
+    },
+    {
+      "id": "NTF-1792776103305-WIN",
+      "userId": "USR-102",
+      "type": "AUCTION_WON",
+      "title": "Gavel Down! Lot LOT-802 Sold",
+      "message": "Zoya Kapoor won \"First Edition 'Dune' Hardcover (1965) Signed\" for ₹88,000!",
+      "auctionId": "LOT-802",
+      "read": false,
+      "timestamp": "2026-10-23T17:21:43.305Z"
+    },
+    {
+      "id": "NTF-1792776043113-LOT-802",
+      "userId": "ALL",
+      "type": "ENDING_SOON",
+      "title": "Final 60 Seconds: LOT-802",
+      "message": "\"First Edition 'Dune' Hardcover (1965) Signed\" is about to close! Current bid: ₹88,000.",
+      "auctionId": "LOT-802",
+      "read": false,
+      "timestamp": "2026-10-23T17:20:43.125Z"
+    },
+    {
+      "id": "NTF-301",
+      "userId": "USR-102",
+      "type": "OUTBID",
+      "title": "Outbid Alert on LOT-801",
+      "message": "Aarav Singhania placed a bid of ₹1,45,000 on 1968 Omega Speedmaster. Your ₹1,35,000 escrow was refunded.",
+      "auctionId": "LOT-801",
+      "read": false,
+      "timestamp": "2026-10-23T14:55:00.000Z"
+    },
+    {
+      "id": "NTF-302",
+      "userId": "ALL",
+      "type": "HIGH_BID",
+      "title": "New Record Bid on Speedmaster",
+      "message": "Bidding reached ₹1,45,000 on LOT-801 (1968 Omega Speedmaster 'Ultraman').",
+      "auctionId": "LOT-801",
+      "read": false,
+      "timestamp": "2026-10-23T14:55:00.000Z"
+    }
+  ]
+}
